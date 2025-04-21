@@ -1009,6 +1009,33 @@
           ]
         }
       }
+    },
+    "humanode-it6-2025-q2": {
+      "name": "Humanode Internal Test 6",
+      "chainType": "evm",
+      "chainId": "15110",
+      "rpc": "https://explorer-rpc-http.it6.stages.humanode.io",
+      "axelarId": "humanode-it6-2025-q2",
+      "contracts": {
+        "AxelarGateway": {
+          "deployer": "0x5bB8d20A5C3dED9c270064a40E798669A1f34C0f",
+          "operator": "0x5bB8d20A5C3dED9c270064a40E798669A1f34C0f",
+          "proxyDeploymentArgs": [
+            "0xc9692a998F4245C77A85a727116c1A94469Dfa90",
+            "0x5bB8d20A5C3dED9c270064a40E798669A1f34C0f",
+            "0x0000000000000000000000005bb8d20a5c3ded9c270064a40e798669a1f34c0f00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000005bb8d20a5c3ded9c270064a40e798669a1f34c0f0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "address": "0x8c5EB3C14E4DdAA3E6bb18CdF7DC4C6688FD53d5",
+          "implementation": "0xc9692a998F4245C77A85a727116c1A94469Dfa90",
+          "implementationCodehash": "0x9dfbf531bb8babfb9799896824d4592bd1e21be4e176088e96e4d7e9fe98cfe0",
+          "deploymentMethod": "create",
+          "previousSignersRetention": 15,
+          "domainSeparator": "0x2e47a9be2aa830ddad6eb65060e86db04559d45d5f808b790897cf2f72316e85",
+          "minimumRotationDelay": 86400,
+          "connectionType": "amplifier",
+          "owner": "0x5bB8d20A5C3dED9c270064a40E798669A1f34C0f"
+        }
+      }
     }
   },
   "axelar": {
@@ -1197,7 +1224,11 @@
           "address": "axelar1w78434ta3l83fstf743xh9v5vkh4k203x2rh7l6w093n4s4vzv0suz09g3"
         },
         "storeCodeProposalId": "78",
-        "storeCodeProposalCodeHash": "d9412440820a51bc48bf41a77ae39cfb33101ddc6562323845627ea2042bf708"
+        "storeCodeProposalCodeHash": "d9412440820a51bc48bf41a77ae39cfb33101ddc6562323845627ea2042bf708",
+        "humanode-it6-2025-q2": {
+          "sourceGatewayAddress": "0x8c5EB3C14E4DdAA3E6bb18CdF7DC4C6688FD53d5",
+          "address": "axelar1kwdxgmaw74zcnkxj5sze2v83sz0vrkxymp22zuckav3wm8em0plsdvlmjl"
+        }
       },
       "Gateway": {
         "avalanche-fuji": {
@@ -1226,6 +1257,9 @@
         "stellar-2025-q1": {
           "codeId": 848,
           "address": "axelar1tatg2n9gsq6vkkafm6pv8hsunr236wgdk4gdc7lw0hs2e3cnspmsw75rld"
+        },
+        "humanode-it6-2025-q2": {
+          "address": "axelar10ayf7c2mw86la9lzvtw9vqjtsapqr67yevqfg46fz3tcvt4k9zgq0q42xx"
         }
       },
       "XrplMultisigProver": {
@@ -1340,7 +1374,11 @@
           "address": "axelar1lgtcv0lfxwaz2prmea2y73lespr3mnwkfjv9kr0q6j7qhvhvwx6s54cesj"
         },
         "storeCodeProposalId": "82",
-        "storeCodeProposalCodeHash": "00428ef0483f103a6e1a5853c4b29466a83e5b180cc53a00d1ff9d022bc2f03a"
+        "storeCodeProposalCodeHash": "00428ef0483f103a6e1a5853c4b29466a83e5b180cc53a00d1ff9d022bc2f03a",
+        "humanode-it6-2025-q2": {
+          "domainSeparator": "0x2e47a9be2aa830ddad6eb65060e86db04559d45d5f808b790897cf2f72316e85",
+          "address": "axelar1324yzmh0926kq6wucsu8jgjshslr5pqqvvuwz5ctepnq4f8ujlpsfpzjf6"
+        }
       },
       "XrplVotingVerifier": {
         "xrpl-dev": {
